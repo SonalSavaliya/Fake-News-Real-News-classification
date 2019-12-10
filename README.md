@@ -27,7 +27,9 @@ I did Fake news analysis, Real news analysis and built classification model usin
 
 - Removed special characters and numbers from text
 - Lowering the text
-- Removed stopwords and lemmatization
+- Removed stopwords
+- Tokenization: convert sentences to words
+- Lemmatization: An approach to remove inflection by determining the part of speech and utilizing detailed database of the language
 
 ### Classification
 
