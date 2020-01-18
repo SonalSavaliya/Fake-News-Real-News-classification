@@ -5,8 +5,10 @@ I did Fake news analysis, Real news analysis and built classification model usin
 ### Fake News Analysis
 
 - There are different fake news types(bias, conspiracy, hate, satire, etc.) in which bias, conspiracy, and hate are the most frequent
+  ![Image of fake news types](https://github.com/SonalSavaliya/Fake-News-Real-News-Analysis/blob/master/Images/fake_types.PNG)
 - Most of the news articles belong to US country
 - In content, most frequently used words in the single word list are Trump, Clinton, People, and Election
+  <p align="center"><img src="https://github.com/SonalSavaliya/Fake-News-Real-News-Analysis/blob/master/Images/fake_wordcloud.PNG" height="260"/></p>
 - In the title, most frequently used words in single word list are Trump, Hillary, Clinton, Election, Russia, and Obama
 - Check news types(bias, conspiracy, hate, satire, etc.) for words, Trump, Clinton, Obama, Election, Putin, and Russia 
   - Found that Trump and Clinton words appear most of the time in bias, conspiracy, and hate news types, however, Trump word appears a lot in bias news type around 138 articles and Clinton word appears a lot in conspiracy news type, around 66 articles
@@ -18,10 +20,15 @@ I did Fake news analysis, Real news analysis and built classification model usin
 ### Real News Analysis
 
 - In content, most frequently used words are trump, people, clinton, and president
+  <p align="center"><img src="https://github.com/SonalSavaliya/Fake-News-Real-News-Analysis/blob/master/Images/real_wordcloud.PNG" height="260"/></p>
 - In the title, most frequently seen words are trump, clinton, election, obama, and russia
 - Most frequent bigram words: donald trump, hillary clinton, hurricane matthew, white house, and north carolina
 - Most frequent trigram words: atlanic politics policy, politics policy daily, and dakota access pipeline
 - Top publications: Reuters, NPR, Washington Post, Guardian, CNN, and New York Times
+
+### Feature Engineering
+
+- Added a few columns such as title and content length, number of capital letters of title and content, number of punctuation in title and content
 
 ### Text Pre-processing
 
@@ -33,4 +40,5 @@ I did Fake news analysis, Real news analysis and built classification model usin
 
 ### Classification
 
-I built two models for classification: MultinominialNB and Logistic Regression, between these two, Logistic Regression performs well.
+Compared models for classification: MultinominialNB, Logistic Regression, Random Forests and LSTM.
+LSTM performs well, it has 99% accuracy rate for training and 93% accuracy rate for testing.
