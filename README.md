@@ -1,6 +1,6 @@
 # Fake News Real News Analysis
 
-I did Fake news analysis, Real news analysis and built classification model using MultinomialNB and Logistic Regression with the TF-IDF model for fake and real news. I have used two datasets for this work, [Fake News](https://www.kaggle.com/mrisdal/fake-news) and [Real News](https://www.kaggle.com/anthonyc1/gathering-real-news-for-oct-dec-2016). This data are from October to December 2016. Here, I analyzed both news types and built the classification model by combining both.
+I did Fake news analysis, Real news analysis and built classification model using MultinomialNB, Logistic Regression, Random Forest and LSTM with the TF-IDF vectorizer for fake and real news. I have used two datasets for this work, [Fake News](https://www.kaggle.com/mrisdal/fake-news) and [Real News](https://www.kaggle.com/anthonyc1/gathering-real-news-for-oct-dec-2016). This data are from October to December 2016. Here, I analyzed both news types and built the classification model by combining both.
 
 ### Fake News Analysis
 
